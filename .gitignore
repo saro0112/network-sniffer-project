@@ -1,0 +1,24 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & packages
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+
+# Output CSV logs (keep the output directory with .gitkeep)
+output/*.csv
+network-sniffer-project/output/*.csv
+!output/.gitkeep
+!network-sniffer-project/output/.gitkeep
